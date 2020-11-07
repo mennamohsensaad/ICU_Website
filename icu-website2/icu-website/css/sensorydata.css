@@ -1,0 +1,99 @@
+body{
+    background: rgb(148, 191, 197);
+}
+
+table{
+   widows: 800px;
+   position: absolute;
+   left:60%;
+   top: -8%;
+   margin: auto;
+   table-layout: fixed;
+   text-align: center;
+   margin-top: 50px;
+   font-family:Arial;
+   color: #fff;
+}
+table,th,td{
+           border:1px solid darkblue;
+           border-collapse: collapse;
+           padding:20px;
+           font-size: 17px;
+}
+
+.patient-select{
+    max-width: 500px;
+    position: absolute;
+    left: 2%;
+    top:10%;
+    margin:auto;
+    border-radius: 10px;
+    background: #190b92;
+    padding:10px;
+    color:#fff;
+}
+
+input[type=text],select{
+  width:100%;
+  padding:12px 20px;
+  margin:8px  0;
+  display:inline-block;
+  border:1px solid #ccc;
+  border-radius: 1px;
+  box-sizing:border-box;
+}
+
+.title{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+   }
+
+.title {
+	 color:rgb(190, 22, 134);
+	 font-size: 20px;
+  }
+
+.label-name{
+    max-width: 350px;
+    position: absolute;
+    left: 2%;
+    top:10%;
+    margin:auto;
+    border-radius: 10px;
+    background: #471fda;
+    padding:10px;
+    color: #fff;
+    font-size: 20px;
+  
+   }
+
+
+.label-name input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #ff26c9;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.label-name input[type="submit"]:hover
+{
+	background: aqua;
+	color: #262626;
+}
+.sensorytitle{
+  position: absolute;
+	top: 8%;
+	left: 50%;
+  transform: translate(-50%,-50%);
+  color:#190b92;
+  font-size: 20px;
+
+}
+  
+

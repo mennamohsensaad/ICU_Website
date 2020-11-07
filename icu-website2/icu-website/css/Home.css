@@ -1,0 +1,64 @@
+*{
+       margin: 0;
+       padding: 0;
+       font-family: century Gothic;  
+}
+     /* image */
+header{
+            background-image: /*linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),*/url(../12.jpg);
+            height: 140vh;
+            background-size: cover;
+            background-position: center;
+        }
+        /* to move navigation bar  */
+ ul{
+     float: right;
+     list-style-type: none;
+   }
+       /* to display navigation bar in block */
+ ul li{
+      display: inline-block;
+      }
+      /* color text and border for navigation bar */
+ul li a{
+     text-decoration: none ;
+     color: #fff;
+     padding: 0px 20px;
+     border:  1px solid  transparent;
+     /* to can click on it */
+     transition: 0.6s ease;
+
+       }
+       /* make a color block when on arow to it */
+ul li a:hover{
+              background-color: rgb(255, 0, 157);
+              color:#000;
+       
+             }
+ul li.active a{
+              background-color: rgb(255, 0, 157);
+              color:#000;
+
+              }
+
+.logo img{
+       float: left;
+       width: 150px;
+       height: auto;
+         }
+.main {
+       max-width: 1400px;
+       margin: auto;
+      }
+
+.title{
+       position: absolute;
+       top: 30%;
+       left: 30%;
+       /*transform: translate(-50%,-50%)*/
+      }
+
+.title {
+        color:rgb(255, 0, 157);
+        font-size: 30px;
+       }
