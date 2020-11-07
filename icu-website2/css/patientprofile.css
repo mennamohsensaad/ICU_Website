@@ -1,0 +1,156 @@
+.body{
+  background: rgb(110, 158, 158);
+}
+
+table{
+   widows: 800px;
+   position: absolute;
+   top: 20%;
+   margin: auto;
+   table-layout: fixed;
+   text-align: center;
+   margin-top: 50px;
+   font-family:Arial;
+   color: rgb(22, 19, 19);
+}
+table,th,td{
+           border:2px solid darkblue;
+           border-collapse: collapse;
+           padding:20px;
+           font-size: 20px;
+}
+
+.patient-select{
+    max-width: 350px;
+    position: absolute;
+    left: 35%;
+    top:40%;
+    margin:auto;
+    border-radius: 5px;
+    background: #b31383;
+    padding:20px;
+    font-size: 25px;
+    color:#fff; 
+}
+
+input[type=text],select{
+  width:100%;
+  padding:12px 20px;
+  margin:8px  0;
+  display:inline-block;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
+}
+.clinal-description{
+  max-width: 1000px;
+  position: absolute;
+  left: 1%;
+  top:55%;
+  margin:auto;
+  border-radius: 0px;
+  border:1px solid #ccc;
+  background: #5813b3;
+  padding:10px;
+  font-size: 30px;
+  color: #FFF;
+}
+.clinal-description2{
+  max-width: 1000px;
+  position: absolute;
+  left: 1%;
+  top:80%;
+  margin:auto;
+  border-radius: 0px;
+  border:1px solid #ccc;
+  background: #5813b3;
+  padding:10px;
+  font-size: 30px;
+  color: #FFF;
+}
+.label-name{
+  max-width: 350px;
+  position: absolute;
+  left: 9%;
+  top:15%;
+  margin:auto;
+  border-radius: 10px;
+  background:#5813b3;
+  padding:10px;
+  color: #fff;
+  font-size: 20px;
+
+ }
+
+
+.label-name input[type="submit"]
+{
+border: none;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+background: #ff267e;
+cursor: pointer;
+border-radius: 20px;
+}
+.label-name input[type="submit"]:hover
+{
+background: aqua;
+color: #262626;
+}
+
+.title{
+	position: absolute;
+	top: 12%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+   }
+
+.title {
+	 color:rgb(190, 22, 154);
+	 font-size: 30px;
+  }
+  
+.Back input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #3c26ff;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.Back input[type="submit"]:hover
+{
+	background: rgb(9, 255, 0);
+	color: #262626;
+}
+.logo img{
+  float: left;
+  width: 120px;
+  height: 170px;
+  position: absolute;
+	top: 0%;
+	left: 0%;
+    }
+.main {
+  max-width: 1400px;
+  margin: auto;
+ }
+  
+ .image img{
+  float: left;
+  width: 180px;
+  height: 170px;
+  position: absolute;
+	top: 0%;
+	left: 40%;
+    }
+.patient {
+  max-width: 1400px;
+  margin: auto;
+ }
+

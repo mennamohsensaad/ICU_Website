@@ -1,0 +1,150 @@
+body{
+    background: rgb(148, 191, 197);
+}
+
+table{
+   widows: 800px;
+   position: absolute;
+   left:10%;
+   top: 90%;
+   margin: auto;
+   table-layout: fixed;
+   text-align: center;
+   margin-top: 50px;
+   font-family:Arial;
+   color: rgb(17, 16, 16);
+}
+table,th,td{
+           border:1px solid rgb(25, 25, 110);
+           border-collapse: collapse;
+           padding:20px;
+           font-size: 20px;
+}
+
+.patient-select{
+    max-width: 500px;
+    position: absolute;
+    left: 35%;
+    top:40%;
+    margin:auto;
+    border-radius: 10px;
+    background: #190b92;
+    padding:10px;
+    color:#fff;
+    font-size: 40px;
+}
+
+input[type=text],select{
+  width:100%;
+  padding:12px 20px;
+  margin:8px  0;
+  display:inline-block;
+  border:1px solid #ccc;
+  border-radius: 1px;
+  box-sizing:border-box;
+}
+
+.title{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+   }
+
+.title {
+	 color:red;
+	 font-size: 20px;
+  }
+
+.label-name{
+    max-width: 350px;
+    position: absolute;
+    left: 9%;
+    top:8%;
+    margin:auto;
+    border-radius: 10px;
+    background:black;
+    padding:10px;
+    color: #fff;
+    font-size: 20px;
+  
+   }
+
+
+.label-name input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: red;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.label-name input[type="submit"]:hover
+{
+	background: aqua;
+	color: #262626;
+}
+.sensorytitle{
+  position: absolute;
+	top: 15%;
+	left: 50%;
+  transform: translate(-50%,-50%);
+  color:#190b92;
+  font-size: 20px;
+
+}
+.logo img{
+  float: left;
+  width: 120px;
+  height: 130px;
+  position: absolute;
+	top: 0%;
+	left: 0%;
+    }
+.main {
+  max-width: 1400px;
+  margin: auto;
+ }
+ .patient-switch input[type="submit"]
+ {
+   border: none;
+   outline: none;
+   position: absolute;
+	 top: 8%;
+	 left: 90%;
+   height: 40px;
+   color: #fff;
+   font-size: 16px;
+   background: rgb(45, 190, 105);
+   cursor: pointer;
+   border-radius: 20px;
+ }
+ .patient-switch input[type="submit"]:hover
+ {
+   background: rgb(224, 118, 189);
+   color: #262626;
+ }
+  
+ .toggel-button input[type="button"]  {
+   border: none;
+   outline: none;
+  position: absolute;
+	top: 5%;
+	left: 80%;
+   width: 100px;
+   height: 80px;
+   color: #fff;
+   font-size: 16px;
+   background: rgb(17, 0, 255);
+   cursor: pointer;
+   border-radius: 20px;
+ }
+ .toggel-button input[type="button"]:hover
+ {
+   background:rgb(224, 118, 189);
+   color: #262626;
+ }
+ 

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<title> sensory data </title>
+          <link rel="stylesheet" href="css/sensorydata.css">
+          <script src="plotly.min.js"></script>
+
+	</head>
+	<body >
+     <img src  ="icu.png" width="1400" height="700" >
+
+    
+    
+    <div class="patient-select">
+    <form>
+         <label for ="name"> Patient Name :- </label>
+         <select id="name">
+            <option value="nothing" selected="selected"> select patient </option> 
+            <option value="file:///C:/Users/Menna/Desktop/icu-website2/sensory2.html"> Sara Ashraf </option>  
+            <option value="file:///C:/Users/Menna/Desktop/icu-website2/sensory1.html"> Ahmed Elmasry </option>          
+
+         </select>
+    </form>
+   </div> 
+   <script type="text/javascript">
+      var urlmenu=document.getElementById('name')
+        urlmenu.onchange=function(){
+             var userOption= this.options[this.selectedIndex];
+             if (userOption.value !="nothing"){
+                  window.open(userOption.value,"patient","");
+             }
+        }
+   
+   </script>
+      <div class="main">
+               <div class="logo">
+                  <img src="preview.jpg">
+               </div>
+    </body>
+    <div class="sensorytitle">
+			<h1> Patient Physiological Parameters </h1>
+		</div>
+</html>

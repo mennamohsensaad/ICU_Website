@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<title> patient profile </title>
+          <link rel="stylesheet" href="css/patientprofile.css">
+          
+	</head>
+	<body>
+               <img src  ="patient.png" width="1400" height="700" >
+ 
+    <div class="patient-select">
+    <form >
+         <label for ="name"> Patient Name :- </label>
+        
+         <select id="name">
+               <option value="nothing"> select patient </option>
+               <option value="file:///C:/Users/Menna/Desktop/icu-website2/patient2.html"> Sara Ashraf </option>  
+               <option value="file:///C:/Users/Menna/Desktop/icu-website2/patient1.html"> Ahmed Elmasry </option>                 
+
+         </select>
+     
+
+    </form>
+    <div class="Back">
+    <form action="Home.html">
+         <input type="submit" name="" value="Back">
+    </form>
+</div>
+</div>
+   <script type="text/javascript">
+     var urlmenu=document.getElementById('name')
+       urlmenu.onchange=function(){
+            var userOption= this.options[this.selectedIndex];
+            if (userOption.value !="nothing"){
+                 window.open(userOption.value,"patient","");
+            }
+       }
+  
+  </script>
+   <div class="main">
+          <div class="logo">
+             <img src="preview.jpg">
+          </div>
+   
+    </body>
+    <div class="title">
+			<h1> Patient Information </h1>
+		</div>
+</html>

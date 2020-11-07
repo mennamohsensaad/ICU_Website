@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+        <style>
+                body {text-align:center} 
+                /* #hed1{text-align:center} */
+                
+           </style>
+
+<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-analytics.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-database.js"></script>
+
+
+
+
+
+<script src="plotly.min.js"></script>
+
+	<head>
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        </head>
+
+        <body>
+		<title> sensory data </title>
+          <link rel="stylesheet" href="css/sensorydata.css">
+          
+        <h1 id="hed1"><FONT COLOR="blue">Patient BioSignals</Font></h1>
+        <h1><FONT COLOR="red">Signal </FONT></h1>
+        <div id="chart1"></div>
+        <!-- <h1><FONT COLOR="red">Signal </FONT></h1> -->
+        <div id="chart2"></div>
+        
+       
+        <!-- //<div id="chart"></div> -->
+        <pre id="signal"></pre>
+        <script src="sode1.js"></script>
+
+
+	
+    <table>
+    <tr> 
+        <th>Data</th>
+        <th>Temprature</th>
+        <th>Pulse rate</th>
+        <th>Blood Pressure</th>
+        
+    </tr>
+    <tr>
+         <td>21-9-2019</td>
+         <td>39.2</td>
+         <td>97</td>
+         <td>120/70</td>
+    </tr>
+    </table> 
+
+
+    <div class="label-name">
+    <form action="sensorydata.html">
+         <label for ="name"> Patient Name :- Ahmed Elmasry </label>
+         <input type="submit" name="" value="Back">
+    </form>
+</div>
+    <div class="patient-switch">
+    <form action="sensory2.html">
+    <input type="submit" name="" value="patient2">
+   </form>
+</div>
+<div class="main">
+        <div class="logo">
+           <img src="preview.jpg">
+        </div>
+        <div class="toggel-button">
+        <form action="">
+            <input type="button" id="1" value="bluetooth" 
+            onclick="toggle(this);">
+            </form>
+           </div>
+            
+    </body>
+    
+</html>
